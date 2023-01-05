@@ -1,0 +1,43 @@
+.nav {
+	width: 100vw;
+	height: 8vh;
+	padding: 0 1rem;
+	background-color: #19191a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+	border-bottom: 2px solid var(--letter-border);
+	z-index: 100;
+}
+
+/* .nav > div {
+	width: calc(100% / 3);
+} */
+
+.nav .this {
+	position: absolute;
+	left: 0;
+}
+
+.nav .title {
+	font-size: 1.8rem;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.nav .hint {
+	position: absolute;
+	right: 1rem;
+	font-size: 2.2rem;
+	cursor: pointer;
+}
+
+.hint:hover {
+	transform: scale(1.1);
+}
+
+.cow {
+	margin: 0 0.3rem;
+}

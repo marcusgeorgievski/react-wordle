@@ -1,0 +1,55 @@
+/* Variables */
+
+:root {
+	--background-dark: #121213;
+	--background-light: #121213;
+
+	--green: #538d4e;
+	--yellow: #b49f3a;
+	--grey: #3a3a3c;
+
+	--letter-color: #eeeeee;
+	--letter-border: #5b5b5b;
+
+	--key-color: #5b5b5b;
+}
+
+/* CSS */
+
+.App {
+	height: 100%;
+	width: 100vw;
+
+	/* border: 1px solid red; */
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+body {
+	text-align: center;
+	font-size: 1em;
+	font-family: verdana;
+	margin: 0;
+	background-color: var(--background-dark);
+	color: white;
+}
+
+/* UTILITY */
+
+.fcc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

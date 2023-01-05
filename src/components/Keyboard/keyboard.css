@@ -1,0 +1,45 @@
+/* Keyboard */
+.keyboard {
+	margin: 20px auto;
+	border: 1px solid green;
+}
+.keyboard > div {
+	margin: 5px;
+	width: 40px;
+	height: 50px;
+	background: #5b5b5b;
+	display: inline-block;
+	border-radius: 6px;
+	line-height: 50px;
+	font-size: 1.2rem;
+}
+
+.keyboard > div:hover {
+	cursor: pointer;
+}
+
+.keyboard > div.green {
+	background: var(--green);
+	color: #fff;
+	transition: all 0.3s ease-in;
+}
+.keyboard > div.yellow {
+	background: var(--yellow);
+	color: #fff;
+	transition: all 0.3s ease-in;
+}
+.keyboard > div.grey {
+	background: var(--grey);
+	color: #fff;
+	transition: all 0.3s ease-in;
+}
+
+.unselectable {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
